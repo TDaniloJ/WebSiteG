@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/login_cadastro.css">
+</head>
+<body>
+    <form method="POST" class="formlogin" id="formLogin" style="display: none;">
+
+        <div class="logo-img">
+            <img src="image/logo.png" alt="Logo" >
+        </div>
+
+        <h3>Tela de Login</h3>
+
+        <label for="Login">Login</label>
+        <input type="text" name="Login" placeholder="Informe seu Login">
+
+        <label for="Senha">Senha</label>
+        <input type="password" name="Login" placeholder="Informe sua Senha">
+
+        <a href="#" class="esqueceuSenha">Esqueceu a Senha?</a> 
+
+        <div class="formButton">
+            <button type="button" class="btn">Entrar</button> 
+            <button type="button" onclick="" class="btnConta">Criar Conta</button>
+        </div>
+
+    </form>
+
+    <form method="POST" class="formlogin" id="formCadastro" style="display: block;">
+
+        <div class="logo-img">
+            <img src="image/logo.png" alt="Logo" >
+        </div>
+
+        <h3>Tela de Cadastro</h3>
+
+        <label for="Login">Login</label>
+        <input type="text" name="Login" placeholder="Informe seu Login">
+                
+        <label for="Senha">E-mail</label>
+        <input type="email" name="email" placeholder="Informe seu Email">
+
+        <label for="Senha">Senha</label>
+        <input type="password" name="Login" placeholder="Informe sua Senha">
+
+        <a href="#" class="esqueceuSenha">Esqueceu a Senha?</a> 
+
+        <div class="formButton">
+            <button type="button" class="btn">Entrar</button> 
+            <button type="button" class="btnConta">Criar Conta</button>
+        </div>
+
+    </form>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
